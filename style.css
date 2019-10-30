@@ -28,19 +28,72 @@
   color: #324bd2;
   margin-left: 30px;
 }
+.my-btn-link::after{
+  content: ">";
+  padding-left: 5px;
+}
+.my-btn-link:hover{
+  color: #0467f6;
+  text-decoration: none;
+
+}
+.my-btn-link{
+  color: grey;
+  font-size: 12px;
+  font-weight: 400;
+}
 .upper_right{
   background-color: white;
   height: 39px;
-}.downer_left{
-  height: 65px;
-  background-color: lightgrey;
 }
+.smallmenu li{
+  font-size: 12px;
+  line-height: 39px;
+
+}
+.smallmenu a{
+  color: grey;
+}
+.smallmenu a:hover{
+  color: #0467f6;
+  text-decoration: none;
+}
+
+.downer_left{
+  height: 65px;
+  background-color: white;
+}
+
 .my_logo{
   height: 30px;
   margin-left: 30px;
-  margin-top: 18px;
+  line-height: 65px;
+}
+.bigmenu{
+  display: inline-block;
+  line-height: 65px;
+  margin-left: 40px;
+  padding-bottom: 8px;
+}
+.bigmenu a:hover{
+  color: #0467f6;
+  text-decoration: none;
+
+}
+.bigmenu a{
+  color: black;
+  text-decoration: none;
+  font-weight: normal;
+
 }
 .downer_right{
   height: 65px;
   background-color: white;
+}
+.my-btn-outline-primary{
+  border-color: #0467f6;
+  color: #0467f6;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-right: 20px;
 }
