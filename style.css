@@ -97,3 +97,24 @@
   margin-top: 10px;
   margin-right: 20px;
 }
+/* end navbar */
+
+/* jumbotron */
+
+.jumbotron{
+  background-color: #334dd5;
+  position: relative;
+}
+.jumboback{
+
+}
+.jumboback img{
+  max-width: 1900px;
+  max-height: 900px;
+  object-fit: cover;
+}
+.drop{
+  position: absolute;
+  top:100px;
+  left: 100px;
+}
