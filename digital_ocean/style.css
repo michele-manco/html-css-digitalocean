@@ -1,0 +1,256 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+  height: 105px;
+  background-color: white;
+  display: block;
+}
+.upper_nav{
+  height: 40px;
+  border-bottom: 1px solid #e5e8ed;
+}
+
+.upper_left{
+  height: 39px;
+}
+.my-btn-primary{
+  background-color: #5ed8d2;
+  border-radius: 5px;
+  font-size: 8px;
+  font-weight:bold;
+  border: none;
+  margin: 8px;
+  color: #324bd2;
+  margin-left: 30px;
+}
+.my-btn-link::after{
+  content: ">";
+  padding-left: 5px;
+}
+.my-btn-link:hover{
+  color: #0467f6;
+  text-decoration: none;
+
+}
+.my-btn-link{
+  color: grey;
+  font-size: 12px;
+  font-weight: 400;
+}
+.upper_right{
+  height: 39px;
+}
+.smallmenu li{
+  font-size: 12px;
+  line-height: 39px;
+
+}
+.smallmenu a{
+  color: grey;
+}
+.smallmenu a:hover{
+  color: #0467f6;
+  text-decoration: none;
+}
+
+.downer_left{
+  height: 65px;
+
+}
+
+.my_logo{
+  height: 30px;
+  margin-left: 30px;
+  line-height: 65px;
+}
+.bigmenu{
+  display: inline-block;
+  line-height: 65px;
+  margin-left: 40px;
+  padding-bottom: 8px;
+}
+.bigmenu a:hover{
+  color: #0467f6;
+  text-decoration: none;
+
+}
+.bigmenu a{
+  color: black;
+  text-decoration: none;
+  font-weight: normal;
+
+}
+.downer_right{
+  height: 65px;
+
+}
+.my-btn-outline-primary{
+  border-color: #0467f6;
+  color: #0467f6;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-right: 20px;
+  background-color: white;
+}
+/* end navbar */
+
+/* jumbotron */
+
+.jumbotron{
+  background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
+  margin-bottom:0px;
+
+}
+.container{
+
+
+}
+
+.text-wrapper{
+  background-color: #52b67e;
+  height: 40px;
+  margin-top: 90px;
+  margin-right: 0px;
+  text-align: center;
+  border-radius: 3px;
+  text-decoration: none;
+}
+.text-wrapper a:hover{
+  text-decoration: none;
+}
+.text-wrapper a{
+  color: white;
+  line-height: 40px;
+  font-size: 16px;
+}
+.screamer{
+  color: white;
+
+  margin-top: 100px;
+
+}
+.screamer h1{
+  font-weight: bold;
+  font-size: 55px;
+}
+.screamer p{
+  margin-top: 30px;
+  padding-right: 20px;
+}
+.form1 h2{
+  font-weight: bold;
+  padding-top: 15px;
+  font-size: 28px;
+
+}
+.form1{
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 60px;
+  height: 540px;
+  text-align: center;
+  padding-right: 30px;
+
+}
+.form-group {
+  width: 445px;
+
+  margin-left: 10px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 10px;
+  margin-left: 0px;
+  padding-left: 0px;
+  position: relative;
+}
+.form-control{
+  width: 350px;
+  margin-left: 0px;
+  padding-left: 10px;
+  height: 40px;
+}
+.my_btn-primary{
+  width: 350px;
+  background-color: #0467f6;
+  margin-left: 75px;
+}
+.col-form-label{
+  height: 40px;
+}
+.form1 p::after {
+  content: "-";
+  width: 20px;
+}
+.form1 p::before{
+  content: "-";
+}
+.my_google:hover{
+  background-color: #d5e4f7;
+}
+
+.my_google{
+  border: 1px solid #0467f6;
+  background-color: rgb(242,248,254);
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+
+}
+.my_git:hover{
+  background-color: #d5e4f7;
+
+}
+.my_git{
+  border: 1px solid #0467f6;
+  background-color: rgb(242,248,254);
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  position: absolute;
+  right:0px;
+}
+.form-group i{
+  font-size: 22px;
+}
+/* end jumbotron */
+
+/* sec partners */
+
+.partners{
+  height: 300px;
+  background-color: #f3f5f9;
+
+}
+.dec{
+  font-size: 16px;
+  font-weight: bold;
+  color: grey;
+  margin-top: 50px;
+  display: inline-block;
+}
+.partnerslist{
+  display: block;
+}
+.partnerslist img{
+  height: 74px;
+  max-width: 148px;
+}
+
+.partnerslist li{
+  padding-right: 35px;
+  margin-top: 30px;
+}
+.linko:hover{
+  text-decoration: none;
+}
+.linko{
+  font-weight: bold;
+}
+
+
+  }
+
+
+
+}
