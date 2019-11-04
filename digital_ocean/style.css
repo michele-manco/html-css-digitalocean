@@ -258,6 +258,7 @@
 .dep h2{
   font-size: 32px;
   font-weight: bold;
+  color: #031b4e;
 }
 .dep p{
   font-size: 19px;
@@ -271,9 +272,10 @@
   font-size: 16px;
   border-left: 2px solid grey;
   padding-top: 20px;
+  color: #031b4e;
 }
 .my_ul a{
-  color: black;
+    color: #031b4e;
   text-decoration: none;
 
 }
@@ -301,6 +303,7 @@
 .des4dev h2{
   font-size: 32px;
   font-weight: bold;
+    color: #031b4e;
 }
 .des4dev p{
   font-size: 19px;
@@ -332,10 +335,12 @@
   font-size: 32px;
   font-weight: bold;
   margin-top: 45px;
+    color: #031b4e;
 }
 .built h3{
   font-weight: bold;
   font-size: 18px;
+    color: #031b4e;
 }
 .built p{
   font-size: 14px;
@@ -351,6 +356,9 @@
 }
 /* end sec dev */
 /* map sec */
+.map{
+  background-color: #010e28;
+}
 
 .xmab{
   /* background-image: url(https://thumbs.dreamstime.com/z/business-trip-banner-airplane-world-map-background-infographic-world-destination-travel-concept-vector-illustration-eps-118239282.jpg); */
@@ -368,6 +376,39 @@ url('https://thumbs.dreamstime.com/z/business-trip-banner-airplane-world-map-bac
   font-weight: bold;
   margin-top: 45px;
   padding:10px 190px 30px;
+
+}
+
+.rocket h2{
+  text-align: center;
+    color: #031b4e;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 45px;
+    padding:10px 190px 30px;
+}
+.rocket p{
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.getta{
+  background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
+  text-align: center;
+
+}
+.getta h2{
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 45px;
+  padding:10px 190px 30px;
+}
+.my_create{
+  color:#0467f6;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
 /* end */
 /* footer */
