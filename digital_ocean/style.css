@@ -252,7 +252,8 @@
 
 /* deploy section */
 .dep{
-  margin-top: 20px;
+  margin-top: 30px;
+  padding-bottom: 20px;
 }
 .dep h2{
   font-size: 32px;
@@ -289,9 +290,39 @@
 .my_my{
   padding-top: 30px;
   padding-right: 50px;
+
 }
 .my_my i{
   color:#0467f6;
+}
+.des4dev {
+  background-color:#f3f5f9;
+}
+.des4dev h2{
+  font-size: 32px;
+  font-weight: bold;
+}
+.des4dev p{
+  font-size: 19px;
+  color: grey;
+}
+.des4dev img{
+  margin-top: 30px;
+  display:block;
+}
+.dev{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.minimini{
+  font-size: 15px;
+  color: grey;
+  margin-top: 20px;
+  display:block;
+}
+.des4dev i{
+  color:#0467f6;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 992px){
@@ -314,5 +345,8 @@
   #my-mobile-menu a{
     color: white;
     font-size: 40px;
+  }
+  .des4dev img{
+  width: 100%
   }
 }
