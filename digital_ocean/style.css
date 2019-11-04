@@ -60,7 +60,7 @@
 
 }
 
-.my_logo{
+.my_logo {
   height: 30px;
   margin-left: 30px;
   line-height: 65px;
@@ -110,7 +110,7 @@
 
 .text-wrapper{
   background-color: #52b67e;
-  height: 40px;
+  
   margin-top: 90px;
   margin-right: 0px;
   text-align: center;
@@ -295,7 +295,21 @@
   .navbar{
     display: none;
   }
-  .my_logo{
+  .form-group{
+    width: 100%
+  }
+  .my_2_logo{
+    display: inline;
+    height: 30px;
+    margin-left: 30px;
 
+
+  }
+  .my_2_logo img{
+    color: white;
+  }
+  #my-mobile-menu a{
+    color: white;
+    font-size: 40px;
   }
 }
