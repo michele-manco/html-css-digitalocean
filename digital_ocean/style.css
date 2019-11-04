@@ -110,7 +110,7 @@
 
 .text-wrapper{
   background-color: #52b67e;
-  
+
   margin-top: 90px;
   margin-right: 0px;
   text-align: center;
@@ -289,6 +289,9 @@
 .my_my{
   padding-top: 30px;
   padding-right: 50px;
+}
+.my_my i{
+  color:#0467f6;
 }
 
 @media screen and (max-width: 992px){
