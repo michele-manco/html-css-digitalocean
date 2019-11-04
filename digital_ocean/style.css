@@ -324,6 +324,31 @@
   color:#0467f6;
   margin-bottom: 20px;
 }
+.my_build{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.built h2{
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 45px;
+}
+.built h3{
+  font-weight: bold;
+  font-size: 18px;
+}
+.built p{
+  font-size: 14px;
+  color: grey;
+}
+.built i{
+  color: #0467f6;
+
+}
+.built a{
+  text-decoration: none;
+  font-weight: bold;
+}
 
 @media screen and (max-width: 992px){
   .navbar{
@@ -346,7 +371,16 @@
     color: white;
     font-size: 40px;
   }
+  .partners{
+    height: 100%;
+  }
+  .dev{
+    width: 100%;
+  }
   .des4dev img{
   width: 100%
+  }
+  .my_build{
+    width: 100%
   }
 }
