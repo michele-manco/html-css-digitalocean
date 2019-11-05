@@ -376,6 +376,7 @@ url('https://thumbs.dreamstime.com/z/business-trip-banner-airplane-world-map-bac
   font-weight: bold;
   margin-top: 45px;
   padding:10px 190px 30px;
+  text-align: center;
 
 }
 
@@ -403,6 +404,7 @@ url('https://thumbs.dreamstime.com/z/business-trip-banner-airplane-world-map-bac
   font-weight: bold;
   margin-top: 45px;
   padding:10px 190px 30px;
+  text-align: center;
 }
 .my_create{
   color:#0467f6;
@@ -419,10 +421,42 @@ footer{
 footer h4{
   color: white;
 }
+.foota{
+  margin-top: 40px;
+}
 .new_ul a{
   color: grey;
 }
-
+hr{
+  /* display: inline-block; */
+  height: 2px;
+  color: grey;
+}
+.revlog{
+  height: 30px;
+  margin-left: 0 auto;
+  margin-bottom: 10px;
+  display:inline-block;
+}
+.relogo p{
+  display: inline;
+  margin-bottom: 30px;
+}
+.logoli i{
+  float: right;
+  margin:10px;
+}
+@media screen and (max-width: 768px){
+  .getta{
+    width: 100%;
+  }
+  .relogo{
+    width: 100%;
+  }
+  .logoli{
+    width: 100%;
+  }
+}
 
 @media screen and (max-width: 992px){
   .navbar{
@@ -454,7 +488,11 @@ footer h4{
   .des4dev img{
   width: 100%
   }
+  .map .xmab{
+    width: 100%;
+  }
   .my_build{
     width: 100%
   }
+
 }
